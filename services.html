@@ -59,7 +59,11 @@ If our location doesn't work out for you, we encourage you to check out <a href=
 <i> Written by: Arslan Orashev </i>
 </center>
 <br>
-<script language=“javascript”>
-document.write(“Last Modified: “+ document.lastModified+””) </script> 
+<p>Last modified:</p>
+<p id="demo"></p>
+<script>
+let text = document.lastModified;
+document.getElementById("demo").innerHTML = text;
+</script>
 </body>
 </html>
